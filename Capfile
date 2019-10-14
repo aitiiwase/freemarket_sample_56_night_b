@@ -9,7 +9,7 @@
 # require "capistrano/scm/svn"
 # install_plugin Capistrano::SCM::Svn
 # or
-require "capistrano/scm/git"
+
 require "capistrano/setup"
 require "capistrano/deploy"
 require 'capistrano/rbenv'
