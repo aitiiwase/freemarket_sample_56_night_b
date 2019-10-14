@@ -6,7 +6,7 @@ lock '3.11.2'
 set :application, 'freemarket_sample_56_night_b'
 
 # どのリポジトリからアプリをpullするかを指定する
-set :repo_url,  'git@github.com:adatu0527/freemarket_sample_56_night_b.git'
+set :repo_url,  'git@github.com:56-night-b/freemarket_sample_56_night_b.git'
 
 # バージョンが変わっても共通で参照するディレクトリを指定
 set :linked_dirs, fetch(:linked_dirs, []).push('log', 'tmp/pids', 'tmp/cache', 'tmp/sockets', 'vendor/bundle', 'public/system', 'public/uploads')
